@@ -1,5 +1,5 @@
 # 简单爬虫
-对东方财经网的东方视点新闻进行爬取，采用BeautifulSoup与selenium
+使用selenium模拟浏览器打开东方视野新闻列表页，使用BeautifulSoup获取每页新闻标题、摘要、时间、url，最后使用goose3获取网页正文部分，目前没有做进程优化，日后有需求再考虑
 
 ### 语言版本
 python 3.6.5
@@ -8,7 +8,13 @@ python 3.6.5
 chrome 72版本
 
 ### 使用方法
-安装完对应库及selenium浏览器驱动后，即可使用
+1. 对应库
+* selenium
+* BeautifulSoup
+* goose3
+2. 驱动
+* selenium对应浏览器驱动
+3. 安装完对应库及selenium浏览器驱动后，即可使用
 支持自定义爬取页数与直接查看爬取数据
 
 --------------------------
