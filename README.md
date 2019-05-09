@@ -9,11 +9,11 @@ chrome 72版本
 
 ### 使用方法
 1. 对应库
-* selenium
-* BeautifulSoup
-* goose3
+ * selenium
+ * BeautifulSoup
+ * goose3
 2. 驱动
-* selenium对应浏览器驱动
+ * selenium对应浏览器驱动
 3. 安装完对应库及selenium浏览器驱动后，即可使用
 支持自定义爬取页数与直接查看爬取数据
 
